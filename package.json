@@ -1,0 +1,23 @@
+{
+  "name": "monkeypen",
+  "version": "1.0.0",
+  "description": "MonkeyPen is a mobile app which uses Drupal 7 as a Back End",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niksmac/MonkeyPen.git"
+  },
+  "author": "@nikhilmohan7 of @lightrainstech",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/niksmac/MonkeyPen/issues"
+  },
+  "homepage": "https://github.com/niksmac/MonkeyPen#readme",
+  "dependencies": {
+    "hapi": "^11.0.2",
+    "mysql": "^2.9.0"
+  }
+}
