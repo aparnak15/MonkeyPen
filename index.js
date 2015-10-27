@@ -7,16 +7,14 @@ server.connection({
     port: 8000
 });
 
-// Add the route
-server.route({
-    method: 'GET',
-    path:'/',
-    handler: function (request, reply) {
-        reply('hello world');
-    }
-});
+// Register the routes
+server.register({
+  register: require('hapi-routes'),
+  options: {dir: 'routes'}
+}, function (err) {
 
-// Start the server
-server.start(function () {
-    console.log('Server running at:', server.info.uri);
+  // Start the server
+  server.start(function () {
+      console.log('Server running at:', server.info.uri);
+  });
 });

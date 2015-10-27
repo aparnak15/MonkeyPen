@@ -18,6 +18,7 @@
   "homepage": "https://github.com/niksmac/MonkeyPen#readme",
   "dependencies": {
     "hapi": "^11.0.2",
+    "hapi-routes": "^2.0.0",
     "mysql": "^2.9.0"
   }
 }
