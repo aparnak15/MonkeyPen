@@ -10,4 +10,10 @@ I wanted to make use of the content management capabilities of [Drupal](https://
 You might want to read more on [drupal.org](https://groups.drupal.org/headless-drupal)
 
 ### Why i didn't used Drupal 8?
-Drupal is not yet stabilised as of Oct 27,  also there are limited modules available.
+Drupal is not yet stabilized as of Oct 27,  also there are limited modules available.
+
+--------
+
+#### Major Packages used
+1. [hapi](http://hapijs.com)
+2. [mysql](https://github.com/felixge/node-mysql)
